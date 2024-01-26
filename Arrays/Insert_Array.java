@@ -36,8 +36,10 @@ public class Insert_Array {
             else
                 newarr[i] = arr[i - 1];
         }
-        arr = newarr;
 
-        System.out.println("\nArray with " + value + " inserted at positionition " + position + ":\n" + Arrays.toString(arr));
+        System.out.println("output is:- ");
+        for(i=0; i<n+1; i++){
+            System.out.print(newarr[i]+" ");
+        }
     }
 }
