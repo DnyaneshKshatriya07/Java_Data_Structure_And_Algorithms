@@ -1,6 +1,5 @@
 package Arrays;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Insert_Array {
@@ -16,9 +15,6 @@ public class Insert_Array {
         for(i=0; i<n; i++){
             arr[i]=sc.nextInt();
         }
-        
-
-        System.out.println("Initial Array:\n" + Arrays.toString(arr));
 
         System.out.println("Enter the value to insert:- ");
         int value=sc.nextInt();
