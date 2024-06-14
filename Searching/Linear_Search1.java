@@ -4,6 +4,10 @@ package Searching;
 Linear Search Algorithm
 1St Way=> Output is in the form of element is found or not.
 */
+// Time Complexity:- Best Case:O(1) 
+//                   Average case:O(N) 
+//                   Worst case:O(N)
+// Space Complexity:- O(1)
 
 import java.util.Scanner;
 
