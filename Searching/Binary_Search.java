@@ -1,3 +1,8 @@
+// Time Complexity:- Best Case:O(1) 
+//                   Average case:O(Log2 N) 
+//                   Worst case:O(N)
+// Space Complexity:- O(1)
+
 public class Binary_Search {
 
     public static int binarySearch(int[] arr, int target) {
