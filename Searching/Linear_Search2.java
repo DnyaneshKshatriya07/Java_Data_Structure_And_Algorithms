@@ -2,6 +2,11 @@
 Linear Search Algorithm
 Output is in the form of index of search element.
 */
+// Time Complexity:- Best Case:O(1) 
+//                   Average case:O(N) 
+//                   Worst case:O(N)
+// Space Complexity:- O(1)
+
 package Searching;
 
 import java.util.Scanner;
