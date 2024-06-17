@@ -16,7 +16,7 @@ public class Creation_of_Doubly_LinkedList {
         }
     }
 
-    public DoublyLinkedList() {
+    public Creation_of_Doubly_LinkedList() {
         this.head = null;
         this.tail = null;
         this.length = 0;
