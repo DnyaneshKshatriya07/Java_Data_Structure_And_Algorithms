@@ -16,7 +16,7 @@ public class Insert_node_at_the_end_of_Doubly_LinkedList {
         }
     }
 
-    public DoublyLinkedList() {
+    public Insert_node_at_the_end_of_Doubly_LinkedList() {
         this.head = null;
         this.tail = null;
         this.length = 0;
