@@ -1,5 +1,7 @@
 package Java_Data_Structure_And_Algorithms.LinkedList.DoublyLinkedList;
 
+import java.util.NoSuchElementException;
+
 public class Delete_first_node_of_Doubly_LinkedList {
 
     private ListNode head;
@@ -56,18 +58,6 @@ public class Delete_first_node_of_Doubly_LinkedList {
         System.out.println("null");
     }
 
-    public void insertFirst(int value) {
-        ListNode newNode = new ListNode(value);
-        if (isEmpty()) {
-            tail = newNode;
-        } else {
-            head.previous = newNode;
-        }
-        newNode.next = head;
-        head = newNode;
-        length++;
-    }
-
     public void insertEnd(int value) {
         ListNode newNode = new ListNode(value);
         if (isEmpty()) {
@@ -101,7 +91,7 @@ public class Delete_first_node_of_Doubly_LinkedList {
         Delete_first_node_of_Doubly_LinkedList dll = new Delete_first_node_of_Doubly_LinkedList();
         dll.insertEnd(1);
         dll.insertEnd(2);
-        dll.insertFirst(3);
+        dll.insertEnd(3);
 
         dll.displayForward();
 
