@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class StackAL {
+public class Stack_using_ArrayList {
 
     static class Stack {
         private ArrayList<Integer> list;
